@@ -17,6 +17,9 @@ use Illuminate\Support\Facades\Route;
 // HomeController index
 Route::get('/', 'HomeController@index');
 
+// check post
+Route::get('/post', 'PostController@post');
+
 //ProjectController
 route::get('/du-an', 'ProjectController@index')->name('indexProjects');
 // single post Project
